@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/assets/sass/ -o src/assets/css/ --output-style compressed"
+  },
+  "keywords": [],
+  "author": "Akshay Dhiman",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
