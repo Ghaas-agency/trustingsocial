@@ -202,6 +202,26 @@ header img {
   transition: all 0.3s ease-in-out;
 }
 
+.twitter-link {
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  filter: opacity(0.6);
+
+  img {
+    width: 25px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    filter: opacity(1);
+  }
+}
+
 @media (max-width: 1200px) {
   .ts-globe {
     bottom: -35%;
