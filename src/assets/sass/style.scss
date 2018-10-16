@@ -178,8 +178,8 @@ header img {
 }
 
 .section-hero img {
-  width: 175px;
-  margin-bottom: 40px;
+  width: 225px;
+  margin-bottom: 20px;
 }
 
 .section-hero h1 {
@@ -210,8 +210,16 @@ header img {
   margin: 0;
   padding: 0;
   margin-top: 40px;
-  -webkit-filter: opacity(0.6);
-  filter: opacity(0.6);
+  
+  a {
+    -webkit-filter: opacity(0.6);
+    filter: opacity(0.6);
+
+    &:hover {
+      -webkit-filter: opacity(1);
+      filter: opacity(1);
+    }
+  }
 
   img {
     width: 25px;
@@ -220,10 +228,7 @@ header img {
     vertical-align: middle;
   }
 
-  &:hover {
-    -webkit-filter: opacity(1);
-    filter: opacity(1);
-  }
+  
 }
 
 @media (max-width: 1200px) {
