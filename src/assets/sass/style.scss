@@ -137,6 +137,37 @@ header img {
   background-size: 130%;
   background-position: center;
   z-index: 1;
+
+  &__content {
+    padding: 75px 52% 75px 3%;
+
+    a {
+      text-decoration: none;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  img {
+    width: 225px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 1.1em;
+  }
+
+  p {
+    color: #ccc;
+    line-height: 1.3em;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+  }
 }
 
 .section-hero .container {
@@ -173,47 +204,19 @@ header img {
   z-index: 9;
 }
 
-.section-hero__content {
-  padding: 75px 52% 75px 3%;
-}
-
-.section-hero img {
-  width: 225px;
-  margin-bottom: 20px;
-}
-
-.section-hero h1 {
-  font-size: 3.5em;
-  color: #ffffff;
-  margin-bottom: 10px;
-  line-height: 1.1em;
-}
-
-.section-hero p {
-  color: #ccc;
-  line-height: 1.3em;
-  font-size: 1.4em;
-  margin-bottom: 40px;
-}
-
-.section-hero__content a {
-  text-decoration: none;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
 .twitter-link {
   display: block;
   clear: both;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+  position: fixed;
+  bottom: 10%;
   
   a {
     -webkit-filter: opacity(0.6);
     filter: opacity(0.6);
+    color: #ffffff;
+    font-size: 1.1em;
 
     &:hover {
       -webkit-filter: opacity(1);
@@ -226,9 +229,7 @@ header img {
     padding: 0;
     margin: 0;
     vertical-align: middle;
-  }
-
-  
+  }  
 }
 
 @media (max-width: 1200px) {
