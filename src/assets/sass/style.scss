@@ -29,7 +29,7 @@ p {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 3.25em;
 }
 
@@ -39,7 +39,7 @@ h2 {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* COMPONENETS */
@@ -217,6 +217,7 @@ header img {
     filter: opacity(0.6);
     color: #ffffff;
     font-size: 1.1em;
+    border-bottom: 1px solid #ffffff;
 
     &:hover {
       -webkit-filter: opacity(1);
